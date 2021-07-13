@@ -1,0 +1,54 @@
+.name {
+  text-align: center;
+  margin-top: 100px;
+}
+.name a {
+  text-decoration: none;
+}
+.name .menu-bar {
+  list-style-type: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.name .menu-bar a {
+  border: 1px solid black;
+  padding-inline: 20px;
+  padding-block: 5px;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+}
+.name .menu-bar ul {
+  display: none;
+  position: absolute;
+}
+.name .menu-bar li:hover > ul {
+  display: block;
+}
+.name .sub-menu {
+  position: relative;
+  top: 148px;
+  right: 883px;
+  list-style-type: none;
+}
+.name .sub-menu li {
+  padding: 5px;
+}
+.name .sub-sub-menu {
+  list-style-type: none;
+}
+.name .sub-sub-menu li {
+  position: relative;
+  top: 8px;
+  left: 61px;
+}
+.name .sub2-menu {
+  position: relative;
+  top: 148px;
+  right: 776px;
+  list-style-type: none;
+}
+.name .sub2-menu li {
+  padding: 5px;
+}
